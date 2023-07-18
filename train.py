@@ -10,7 +10,7 @@ import torch.nn.functional as F
 import torch.nn as nn
 import sys
 import os 
-from demo1 import *
+from model.ReverseNet import *
 
 # 设置log
 mkdir('./log/')
